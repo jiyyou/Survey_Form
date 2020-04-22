@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  text-align: center;
+  padding: 1.5%;
+}
+main {
+  line-height: 22px;
+  font-size: 20px;
+}
+#title {
+  font-size:
+  margin-bottom: 1%;
+}
+#description {
+  font-style: italic;
+  font-size: 18px;
+}
+#survey-form {
+  background-color: rgba(32,16,85,0.5);
+  width: 700px;
+  border-radius: 5px;
+  margin: auto;
+  padding: 1.5% 1.5% 4% 1.5%;
+}
+input[type=text], input[type=number], input[type=email] {
+  font-size: 18px;
+  border-radius: 5px;
+  height: 26px;
+  margin: 6px 0px 6px 0px;
+  width: 100%;
+}
+select {
+  width: 100%;
+  font-size: 16px;
+  height: 26px;
+  margin-top: 10px;
+}
+.cboxradio {
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+button {
+  background-color: green;
+  border-color: green;
+  border-radius: 5px;
+  width: 93%;
+  margin-left: 4%;
+  height: 35px;
+}
+textarea {
+  font-size: 18px;
+}
+div {
+  margin: 4%;
+}
